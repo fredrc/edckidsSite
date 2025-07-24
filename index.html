@@ -42,75 +42,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EDC Kids - Software Development</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            line-height: 1.6;
-        }
-        header {
-            background-color: #f4f4f4;
-            padding: 20px;
-            text-align: center;
-        }
-        nav {
-            background-color: #333;
-            color: white;
-            padding: 10px;
-        }
-        nav a {
-            color: white;
-            margin: 0 15px;
-            text-decoration: none;
-        }
-        main {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 0 20px;
-        }
-        section {
-            margin-bottom: 20px;
-        }
-        footer {
-            background-color: #f4f4f4;
-            text-align: center;
-            padding: 10px;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+    <title>Educational Development Corporation of Washington</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon.png">
 </head>
-<body>
-    <header>
-        <h1>EDC Kids - Innovate with Us</h1>
-    </header>
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#contact">Contact</a>
+<body class="bg-gray-100 font-sans">
+    <!-- Navigation Bar -->
+    <nav class="bg-blue-600 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="text-2xl font-bold">EDC of WA</div>
+            <ul class="flex space-x-6">
+                <li><a href="#home" class="hover:underline">Home</a></li>
+                <li><a href="#about" class="hover:underline">About Us</a></li>
+                <li><a href="#solutions" class="hover:underline">Solutions</a></li>
+                <li><a href="#innovations" class="hover:underline">Innovations</a></li>
+                <li><a href="#impact" class="hover:underline">Impact</a></li>
+                <li><a href="#contact" class="hover:underline">Contact</a></li>
+            </ul>
+        </div>
     </nav>
-    <main>
-        <section id="about">
-            <h2>About EDC Kids</h2>
-            <p>With over 30 years of experience, EDC Kids is a leading software development company dedicated to delivering innovative, reliable, and scalable solutions. We pride ourselves on transforming ideas into reality for businesses and individuals worldwide.</p>
-        </section>
-        <section id="services">
-            <h2>Our Services</h2>
-            <p>We specialize in custom software development, mobile app creation, web development, and IT consulting. Stay tuned as we expand our offerings to meet your needs.</p>
-        </section>
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <p>Ready to start your next project? Reach out to us!</p>
-            <p>Email: contact@edckids.com</p>
-            <p>Phone: (123) 456-7890</p>
-        </section>
-    </main>
-    <footer>
-        <p>© 2025 EDC Kids. All rights reserved.</p>
+
+    <!-- Hero Section -->
+    <section id="home" class="bg-blue-500 text-white py-20 text-center">
+        <div class="container mx-auto">
+            <h1 class="text-4xl font-bold mb-4">Transforming Learning and Engagement</h1>
+            <p class="text-lg mb-6">Educational Development Corporation of Washington (EDC of WA) pioneers innovative gaming and learning solutions to revolutionize education and customer engagement.</p>
+            <a href="#solutions" class="bg-white text-blue-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-200">Explore Our Solutions</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-white">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-6">About EDC of WA</h2>
+            <p class="text-lg mb-4">Founded with a vision to enhance learning through technology, EDC of WA has evolved into a leader in gaming, game handicapping, and scoring systems. Our mission is to transform education and promotions, empowering students and businesses alike.</p>
+            <p class="text-lg">From developing cost-saving solutions for schools to creating engaging promotional systems for businesses, we are committed to innovation and impact.</p>
+        </div>
+    </section>
+
+    <!-- Solutions Section -->
+    <section id="solutions" class="py-16 bg-gray-100">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-8">Our Solutions</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-4">Educational Technology</h3>
+                    <p>Our patented technologies enhance learning through interactive games and knowledge-based systems, improving student outcomes and engagement.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-4">Promotional Systems</h3>
+                    <p>From on-site advertising to large-scale gaming tournaments, our solutions drive customer loyalty and engagement for businesses.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-4">Game Handicapping & Scoring</h3>
+                    <p>Our advanced systems provide fair and engaging experiences for games of skill, chance, and knowledge, setting new standards in the industry.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Innovations Section -->
+    <section id="innovations" class="py-16 bg-white">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-8">Our Innovations</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-gray-100 p-6 rounded-lg">
+                    <h3 class="text-xl font-semibold mb-4">Daylight Savings Chip</h3>
+                    <p>Our founder developed a chip for Clover Park School District, saving thousands annually by enabling custodians to reprogram clocks in-house.</p>
+                </div>
+                <div class="bg-gray-100 p-6 rounded-lg">
+                    <h3 class="text-xl font-semibold mb-4">Juke Box Advertising Chip</h3>
+                    <p>We created a chip for Rock-Ola Juke Boxes to play on-site advertisements, powering promotions like Happy Hours and regional tournaments, including a $200,000 Golden Tee Golf Game event.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact Section -->
+    <section id="impact" class="py-16 bg-gray-100">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-6">Our Impact</h2>
+            <p class="text-lg mb-4">EDC of WA is dedicated to revolutionizing education and promotions. Our technologies empower schools to save resources and businesses to engage customers, positioning America to lead in a competitive world.</p>
+            <p class="text-lg">From local schools to regional tournaments, our innovations have delivered measurable results, including significant cost savings and enhanced engagement.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-blue-600 text-white">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-6">Get in Touch</h2>
+            <p class="text-lg mb-6">Interested in transforming learning or boosting your business promotions? Contact us to learn more about our solutions.</p>
+            <a href="mailto:info@edcofwa.com" class="bg-white text-blue-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-200">Contact Us</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2025 Educational Development Corporation of Washington. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>

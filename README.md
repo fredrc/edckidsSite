@@ -1,2 +1,0 @@
-# edckidsSite
-Simple website creation
